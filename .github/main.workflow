@@ -2,6 +2,7 @@ workflow "New workflow" {
   on = "push"
   resolves = [
     "Hello World",
+    "Hello World b",
     "HTTP client",
   ]
 }
@@ -12,6 +13,10 @@ action "Hello World" {
     MY_NAME = "Mona"
   }
   args = "\"Hello world, I'm $MY_NAME!\""
+}
+
+action "Hello World b" {
+  uses = "./action-b"
 }
 
 action "HTTP client" {
