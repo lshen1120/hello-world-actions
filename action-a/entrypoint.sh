@@ -11,3 +11,5 @@ pwd
 
 echo 'env list'
 env
+
+mkdir aaa
