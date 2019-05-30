@@ -26,6 +26,6 @@ action "HTTP client" {
 }
 
 action "聚合action" {
-  uses = "./action-a"
+  uses = "./action-c"
   needs = ["HTTP client", "Hello World", "Hello World b"]
 }

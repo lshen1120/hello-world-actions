@@ -3,3 +3,5 @@
 sh -c "echo $*"
 
 echo '111' > 111.txt
+echo 'bbb' >> result.txt
+echo 'bbb' > result-1.txt
