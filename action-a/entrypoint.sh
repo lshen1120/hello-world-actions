@@ -12,4 +12,4 @@ pwd
 echo 'env list'
 env
 
-mkdir aaa
+mkdir new-dir

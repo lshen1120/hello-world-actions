@@ -7,3 +7,6 @@ cat result.txt
 
 echo 'result 1'
 cat result-1.txt
+
+echo 'ls -a'
+ls -a

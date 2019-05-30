@@ -6,4 +6,4 @@ echo '111' > 111.txt
 echo 'bbb' >> result.txt
 echo 'bbb' > result-1.txt
 
-rm -rf aaa
+rm -rf new-dir
